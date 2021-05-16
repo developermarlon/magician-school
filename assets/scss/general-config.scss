@@ -1,0 +1,12 @@
+.v-application {
+  background-color: var(--v-background-base) !important;
+}
+
+*::-webkit-scrollbar {
+  background: var(--v-background-base);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 32px;
+  background: var(--v-primary-base);
+}
