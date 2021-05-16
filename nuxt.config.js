@@ -3,23 +3,23 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - magician-school',
-    title: 'magician-school',
+    titleTemplate: '%s - MAGICIAN SCHOOL',
+    title: 'MAGICIAN SCHOOL',
     htmlAttrs: {
-      lang: "es",
+      lang: "en",
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Magic School. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quis dignissimos necessitatibus architecto porro similique explicabo consectetur qui' },
       { hid: 'theme-color', name: 'theme-color', content: '#040714' },
-      { hid: 'og:url', property: 'og:url', content: "https://magicianschool.netlify.app" },
+      { hid: 'og:url', property: 'og:url', content: "https://magician-school.netlify.app" },
       { hid: 'og:description', name: 'og:description', content: 'Magic School. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quis dignissimos necessitatibus architecto porro similique explicabo consectetur qui' },
-      {hid: 'og:image', property: 'og:image', content: '/static/icon.png'},
+      {hid: 'og:image', property: 'og:image', content: '/icon.png'},
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'canonical', type: 'image/x-icon', href: 'https://magicianschool.netlify.app' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'canonical', type: 'image/x-icon', href: 'https://magician-school.netlify.app' }
     ]
   },
 
@@ -69,7 +69,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'es'
+      lang: 'en'
     }
   },
 

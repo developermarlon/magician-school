@@ -37,6 +37,9 @@
 
 export default {
   name: 'Home',
+  head: {
+    title: 'Home'
+  },
   loading: true,
   data: () => ({
     students: [],

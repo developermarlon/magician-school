@@ -93,6 +93,9 @@
 <script>
 export default {
   name: 'FilterUsers',
+  head: {
+    title: 'Filter users'
+  },
   components: {
   },
   data: () => ({
