@@ -1,7 +1,7 @@
 <template lang="pug">
   //- GENERAL CONTAINER
   v-container(fluid pa-0)
-
+    generalNavbar
     //- CAROUSESL HOUSES
     v-container(fluid pa-0)
       homeCarousel

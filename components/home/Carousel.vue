@@ -1,7 +1,7 @@
 <template lang="pug">
   //- GENERAL CONTAINER WIDTH 100%
   v-container(fluid pa-0 id="container-banner")
-    v-carousel(hide-delimiters :show-arrows="true" :height="$vuetify.breakpoint.xs ? '60vh' : '75vh'" cycle :interval="8000")
+    v-carousel(hide-delimiters :show-arrows="true" :height="$vuetify.breakpoint.xs ? '70vh' : '75vh'" cycle :interval="8000")
 
       //- PERSONALIZED ARROWS
       template(v-slot:prev="{ on, attrs }")

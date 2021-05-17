@@ -1,5 +1,6 @@
 <template lang="pug">
-
+  v-container(fluid pa-0)
+    generalNavbar
     //- GENERAL CONTAINER
     v-container(pa-4 mt-16)
 

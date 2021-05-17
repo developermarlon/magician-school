@@ -1,9 +1,7 @@
 <template lang="pug">
   v-app(id="inspire" :dark="setTheme")
     v-slide-y-transition(mode="out-in")
-      div
-        generalNavbar
-        Nuxt
+      Nuxt
     //- v-switch(:label="`Dark Theme`" v-model="goDark")
 </template>
 
