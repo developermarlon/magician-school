@@ -71,7 +71,7 @@ export default {
       lang: 'en'
     },
     icon: {
-      fileName: 'icon.png?v1'
+      fileName: 'icon.png'
     }
   },
 
