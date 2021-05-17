@@ -15,7 +15,7 @@ export default {
       { hid: 'theme-color', name: 'theme-color', content: '#040714' },
       { hid: 'og:url', property: 'og:url', content: "https://magician-school.netlify.app" },
       { hid: 'og:description', name: 'og:description', content: 'Magic School. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quis dignissimos necessitatibus architecto porro similique explicabo consectetur qui' },
-      {hid: 'og:image', property: 'og:image', content: '/static/icon.png'},
+      {hid: 'og:image', property: 'og:image', content: '/icon.png'},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -70,7 +70,9 @@ export default {
     manifest: {
       lang: 'en'
     },
-    iconFileName: 'icon.png'
+    icon: {
+      fileName: 'icon.png?v1'
+    }
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
