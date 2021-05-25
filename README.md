@@ -1,3 +1,6 @@
+DEMO:
+https://magician-school.netlify.app
+
 # magician-school
 
 ## Build Setup
